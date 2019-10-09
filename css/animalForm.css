@@ -1,0 +1,33 @@
+
+
+
+.form-div{
+    width: 40%;
+    margin: 0px auto;
+    margin-top: 150px;
+    padding: 20px;
+    background: rgba(48, 196, 97, 0.3);
+    border-radius: 5%;
+    
+
+}
+
+body{
+    /* background: url("../images/formbg.jpg"); */
+    background: url(../images/14893.jpg);
+   
+    font-family: 'Dosis', sans-serif;
+}
+
+h2{
+    font-family: 'Luckiest Guy', cursive;
+}
+#userplace{
+    color: whitesmoke;
+  }
+
+  #web_name{
+    font-family: 'Mansalva', cursive;
+    font-size: 100px;
+    color: rgb(42, 56, 190)
+  }

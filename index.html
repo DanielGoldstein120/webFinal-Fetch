@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>login</title>
+        <link rel="icon" href="images/claw.png">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Bangers|Comfortaa|Dosis|Luckiest+Guy|Mansalva&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/login.css">
+        
+        
+      
+    </head>
+
+    
+
+    <body>
+        
+        <div class="container">
+                <center id="web_name" >fetch🐾<i class="fas fa-bone" style="color: rgb(92, 60, 60)"></i></center>
+        <div class="main-div" id="login_div">
+                
+            <h3>woof! please log in or sign up</h3>
+            <input id="email_f" type="email" placeholder="Email"/>
+            <input id="pass_f" type="password" placeholder="Password"/>
+            <button id="loginbtn" onclick="login()">Login</button>
+            <button id="signupbtn"  style="margin-top: 10px">Signup</button>
+        </div>
+
+        <div class="sign-up" id="signup_form" style="display: none">
+                <h3>welcome to signup section</h3>
+                <input id="first_name" type="text" placeholder="Name"/>
+                <input id="last_name" type="text" placeholder="Surname"/>
+                <input id="email_su" type="email" placeholder="Email"/>
+                <input id="pass_su" type="password" placeholder="Password"/>
+                <button id= "regButton" onclick="register()">Register</button>
+                <button id="backB" onclick="goback()" style="margin-top: 10px">return</button>
+
+        </div>
+    </div>
+
+        <script src="https://www.gstatic.com/firebasejs/6.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-database.js"></script>  
+        <script src="js/login.js"></script>
+    </body>
+
+
+
+
+</html>

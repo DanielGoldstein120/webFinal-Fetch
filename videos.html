@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>videos</title>
+    <link rel="icon" href="images/claw.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Bangers|Comfortaa|Dosis|Luckiest+Guy|Mansalva&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/videos.css">
+
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <a class="navbar-brand" href="animalPage.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="animalForm.html"><i class="fa fa-plus-square" aria-hidden="true" style="color: whitesmoke" ></i> Add Animal</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="videos.html"><i class="fa fa-youtube" aria-hidden="true" style="color: whitesmoke"></i> Videos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html"><i class="fa fa-question-circle-o" aria-hidden="true" style="color: whitesmoke"></i>About</a>
+        </li>    
+      </ul>
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item " >
+              <p id="userplace"></p>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" onclick="logout()"><i class="fa fa-sign-out" aria-hidden="true" style="color: whitesmoke"></i> logout</a>
+                </li> 
+      </ul>
+    </div>  
+  </nav>
+      
+      
+    <div class="container">
+        <center id="intro">
+            <center id="web_name" >fetch🐾<i class="fas fa-bone" style="color: rgb(92, 60, 60)"></i></center>
+            <h2>
+                dogs and cats are really fun, watch these videos to help u decide to addopt a pet and have lots of fun and who knows 
+                maybe even having these funny moments with your pet! <br>
+            </h2>
+            <h4>funny videos of pets to enjoy and have a good laugh:</h4>
+        </center>
+         
+            <!-- <ul id="vid_links" class="vlist" style="list-style-type:none;"> -->
+               <center id="vidbtn">
+                
+
+                    <button id="clickme" class="btn btn-info" onclick="playvideo('<a>https://www.youtube.com/embed/AcL0MeVZIxM</a>')">vid1️⃣</button>
+                    <button id="clickme" class="btn btn-info" onclick="playvideo('<a>https://www.youtube.com/embed/3dcli9i_pvA</a>')">vid2️⃣</button>
+                    <button id="clickme" class="btn btn-info" onclick="playvideo('<a>https://www.youtube.com/embed/_wFbiy_LIH8</a>')">vid3️⃣</button>
+                    <button id="clickme" class="btn btn-info" onclick="playvideo('<a>https://www.youtube.com/embed/BRMK77NUsyU</a>')">vid4️⃣</button>
+                    <button id="clickme" class="btn btn-info" onclick="playvideo('<a>https://www.youtube.com/embed/VB4CCHHYOqY</a>')">vid5️⃣</button>
+                  
+                </center>
+            <!-- <li id="one" onclick="playvideo(this)" ><a>https://www.youtube.com/embed/AcL0MeVZIxM</a></li>
+            <li id="two" onclick="playvideo(this)" ><a>https://www.youtube.com/embed/3dcli9i_pvA</a></li>
+            <li id="three" onclick="playvideo(this)" ><a>https://www.youtube.com/embed/BRMK77NUsyU</a></li>
+            <li id="four" onclick="playvideo(this)" ><a>https://www.youtube.com/embed/_wFbiy_LIH8</a></li>
+            <li id="five" onclick="playvideo(this)" ><a>https://www.youtube.com/embed/VB4CCHHYOqY</a></li> -->
+            <!-- </ul>  -->
+          
+            
+    </div>
+    <center>
+        <iframe width="700" height="350" id="player"
+            src="https://www.youtube.com/embed/AcL0MeVZIxM">
+        </iframe>
+
+    </center>
+    
+    <script src="https://www.gstatic.com/firebasejs/6.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-database.js"></script>
+    <script src="js/videos.js"></script>
+</body>
+</html>

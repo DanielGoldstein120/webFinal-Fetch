@@ -1,0 +1,101 @@
+.card{
+    border: 1px solid black ;
+
+}
+
+
+#main_board{
+background: 0;
+padding-top: 15px;
+font-family:  'Dosis', sans-serif;
+
+}
+
+
+.card-title{
+  font-family:   'Comfortaa', cursive;
+}
+body{
+  /* background-image: url("../images/mainbg.jpg"); */
+  background: url(../images/1.png);
+  font-family:  'Dosis', sans-serif;
+}
+
+.jumbotron{
+  background: 0;
+  /* background:rgba(255, 255, 255, 0.3); */
+}
+
+/* #dog_facts{
+  background: rgb(233, 243, 90)
+  
+
+} */
+#middle{
+  background:rgba(255, 255, 255, 0.3);
+}
+#joke{
+  font-size: 40px;
+}
+
+#breedname{
+  font-family: 'Luckiest Guy', cursive;
+}
+h1, h2{
+  font-family: 'Luckiest Guy', cursive;
+}
+  
+#web_name{
+  font-family: 'Mansalva', cursive;
+  font-size: 100px;
+  color: rgb(42, 56, 190)
+}
+
+button{
+  font-family: 'Bangers', cursive;
+}
+  #userplace{
+    color: whitesmoke;
+  }
+
+  /* ##################################################################################### */
+
+  #lightbox{
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    background:rgba(0, 0, 0, 0.3);
+    display:none;
+  }
+  
+  #lightbox.open{
+    display:block;
+  }
+  
+  #lightbox_content{
+    position:absolute;
+    width:500px;
+    height:450px;
+    background:url("../images/ideabg.jpg");
+    border-radius:3px;
+    left:50%;
+    top:50%;
+    margin-left:-250px;
+    margin-top:-200px;
+    text-align:center;
+  }
+  
+  #close{
+    position:absolute;
+    right:20px;
+    top:20px;
+    background:rgba(0, 0, 0, 0.2);
+    height:20px;
+    width:20px;
+    border-radius:15px;
+    text-align:center;
+    color:#ffffff;
+    cursor:pointer;
+  }

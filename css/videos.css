@@ -1,0 +1,34 @@
+body{
+    background: url("../images/videopagebg.jpg");
+    font-family: 'Dosis', sans-serif;
+}
+
+.vlist{
+
+    font-size: large;
+    text-decoration-color: black;
+}
+
+
+#userplace{
+    color: whitesmoke;
+  }
+
+  h1,h2,h3,h4{
+    font-family: 'Luckiest Guy', cursive;
+  }
+
+  button{
+      margin-right: 5px;
+      font-family: 'Bangers', cursive;
+  }
+
+  #vidbtn{
+      margin-bottom: 20px;
+  }
+
+  #web_name{
+    font-family: 'Mansalva', cursive;
+    font-size: 100px;
+    color: rgb(42, 56, 190)
+  }

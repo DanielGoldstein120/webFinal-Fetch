@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>animal form </title>
+    <link rel="icon" href="images/claw.png">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Bangers|Comfortaa|Dosis|Luckiest+Guy|Mansalva&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/animalForm.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <a class="navbar-brand" href="animalPage.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="animalForm.html"><i class="fa fa-plus-square" aria-hidden="true" style="color: whitesmoke" ></i> Add Animal</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="videos.html"><i class="fa fa-youtube" aria-hidden="true" style="color: whitesmoke"></i> Videos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html"><i class="fa fa-question-circle-o" aria-hidden="true" style="color: whitesmoke"></i> About</a>
+        </li> 
+                 
+      </ul>
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item " >
+              <p id="userplace"></p>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" onclick="logout()"><i class="fa fa-sign-out" aria-hidden="true" style="color: whitesmoke"></i> logout</a>
+                </li> 
+      </ul>
+    </div>  
+  </nav>
+      
+    
+   
+    
+    <center id="web_name" > fetch🐾<i class="fas fa-bone" style="color: rgb(92, 60, 60)"></i></center>
+    <div class="w3-card-4 form-div" >
+      <div class="w3-container ">
+        <h2>Add your pet 🐶🙀🦄🐰</h2>
+      </div>
+  <!-- <form class="w3-container"> -->
+        <p>      
+         <input class="w3-input w3-border  w3-round-large " id="animalname" name="first" type="text" placeholder="Name">
+        </p>
+        <p>      
+         <input class="w3-input w3-border  w3-round-large" id="animalType" name="last" type="text" placeholder="Animal Type">
+        </p>
+        <p>
+          <textarea class="w3-input w3-border  w3-round-large " id="animal_desc" cols="30" rows="5" placeholder="Enter short description" style="margin-top: 10px"></textarea>
+        </p>
+            
+           <p>  
+               <input class="w3-btn w3-blue  w3-round-large " type="file" name="myFile" id="picUpload" >
+              </p>
+            <p><button  class="w3-btn w3-blue  w3-round-large" id="submit"  onclick="add()" style="margin-top: 10px">Submit</button>
+            </p>
+            <p><button  class="w3-btn w3-blue  w3-round-large" id="cancel"  onclick="back()" style="margin-top: 10px">Cancel</button>
+            </p>
+            
+      <!-- </form> -->
+    </div>
+
+
+    <script src="https://www.gstatic.com/firebasejs/6.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-storage.js"></script>
+    <script src="js/animalForm.js"></script>
+</body>
+</html>

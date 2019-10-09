@@ -1,0 +1,33 @@
+#userplace{
+    color: whitesmoke;
+  }
+
+
+  body{
+    background: url("../images/2.png");
+    font-family: 'Dosis', sans-serif;
+}
+
+
+h2{
+    font-family: 'Luckiest Guy', cursive; 
+}
+#about_text{
+
+    font-family: 'Luckiest Guy', cursive; 
+    font-size: 30px;   
+    background:rgba(255,255,255,0.3);
+}
+#web_name{
+    font-family: 'Mansalva', cursive;
+    font-size: 100px;
+    color: rgb(42, 56, 190)
+  }
+
+  #contact-us{
+      background: rgba(255,255,255,0.3);
+  }
+  button{
+    
+    font-family: 'Bangers', cursive;
+}
